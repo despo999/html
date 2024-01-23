@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>something</title>
+  <style>
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 200px;
+    }
+
+    .line {
+      width: 400px;
+      height: 100px;
+      border: 10px solid rgb(76, 12, 12);
+      position: relative;
+    }
+
+    .in {
+      height: 100px;
+      width: 100px;
+      background-color: rgb(0, 0, 0);
+      animation: dvishenie 3s ease-in-out alternate infinite;
+      position: absolute;
+    }
+
+    @keyframes dvishenie {
+      from {
+        left: 0px;
+      }
+
+      to {
+        left: 300px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="line">
+      <div class="in"></div>
+    </div>
+
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .border {
+            border: 1px solid black;
+        }
+
+        .box {
+            background-color: gray;
+        }
+
+        .flex {
+            display: flex;
+        }
+        nav ul {
+            list-style: none;
+            gap: 10px;
+            margin: 0;
+            padding: 0;
+        }
+        nav a {
+            text-transform: capitalize;
+            color: black;
+            text-decoration: none;
+        }
+        .small {
+            height: 30px;
+            width: 30px;
+        }
+        .big {
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <div class="flex">
+            <div class="border">
+                <span>Logo</span>
+            </div>
+        </div>
+        <nav class="border">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">gallery</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+            <input type="text">
+        </nav>
+    </header>
+    <div class="content flex">
+        <main>
+            <h1>Lorem ipsum dolor sit amet.</h1>
+         <div class="box big"></div>
+        </main>
+        <div>
+            <aside>
+                <p>list</p>
+                <ul>
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                    <li>item 4</li>
+                    <li>item 5</li>
+                </ul>
+
+            </aside>
+            <aside>
+                <p>Lorem</p>
+                <div class="flex">
+                    <div class="box small"></div>
+                    <div class="box small"></div>
+                    <div class="box small"></div>
+                    <div class="box small"></div>
+                    <div class="box small"></div>
+                    <div class="box small"></div>
+                    <div class="box small"></div>
+                    <div class="box small"></div>
+                    <div class="box small"></div>
+                
+                </div>
+            </aside>
+        </div>
+
+    </div>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
