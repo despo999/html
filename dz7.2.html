@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .parent {
+      display: inline-grid;
+      grid-template-columns: 100px 60px 1fr 60px 100px;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      align-items: center;
+      width: 800px;
+      background-color: #f5f5f5;
+      gap: 10px;
+      padding: 20px;
+    }
+
+    .girl {
+      background-color: #ecb7c2;
+      border-radius: 18px 18px 18px 0;
+      width: 400px;
+      padding: 20px;
+      margin: 0;
+      text-align: left;
+    }
+
+    .boy {
+      background-color: #bcd6e5;
+      border-radius: 18px 18px 0 18px;
+      width: 400px;
+      padding: 20px;
+      margin: 0;
+    }
+
+    .text_girl {
+      text-transform: capitalize;
+      margin: 0;
+      padding: 16px 0 0 0;
+      text-align: right;
+    }
+
+    .text_boy {
+      text-transform: capitalize;
+      margin: 0;
+      padding: 16px 0 0 0;
+      text-align: left;
+    }
+
+    span {
+      text-transform: none;
+      opacity: 0.6;
+    }
+
+    .item1 {
+      grid-column-start: 1;
+    }
+
+    .item2 {
+      grid-column-start: 3;
+    }
+  </style>
+</head>
+
+<body>
+  <p><a href="index.html">Back</a></p>
+  <div class="parent">
+    <div class="item1">
+      <p class="text_girl">anie smith<br><span><small>4 hours ago</small></span></p>
+    </div>
+    <div><img src="food/avatar_2.png" alt="girl"></div>
+    <div>
+      <p class="girl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus.</p>
+    </div>
+    <div class="item2">
+      <p class="boy">Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+    <div><img src=food/avatar_1.png" alt="boy"></div>
+    <p class="text_boy">jack silverston<br><span><small>4 hours ago</small></span></p>
+    <div class="item1">
+      <p class="text_girl">anie smith<br><span><small>4 hours ago</small></span></p>
+    </div>
+    <div><img src="food/avatar_2.png" alt="girl"></div>
+    <div>
+      <p class="girl">Lorem ipsum dolor sit amet consectetur adipisicing. </p>
+    </div>
+    <div class="item2">
+      <p class="boy">Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit.</p>
+    </div>
+    <div><img src="food/avatar_1.png" alt="boy"></div>
+    <p class="text_boy">jack silverston<br><span><small>3 hours ago</small></span></p>
+    <div class="item1">
+      <p class="text_girl">anie smith<br><span><small>3 hours ago</small></span></p>
+    </div>
+    <div><img src="food/avatar_2.png" alt="girl"></div>
+    <div>
+      <p class="girl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores?</p>
+    </div>
+    <div class="item2">
+      <p class="boy">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+    </div>
+    <div><img src="food/avatar_1.png" alt="boy"></div>
+    <p class="text_boy">jack silverston<br><span><small>2 hours ago</small></span></p>
+  </div>
+</body>
+
+</html>
